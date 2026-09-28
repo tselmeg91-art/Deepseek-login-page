@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    font-family: "quote-cjk-patch", "Inter", system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+        "Open Sans", "Helvetica Neue", sans-serif;
+   
+
+}
+
+.root {
+    padding: 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100vh;
+    display: flex;
+    overflow: auto;
+}
+
+.under-root {
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+    justify-content: safe center;
+    align-items: safe center;
+    display: flex;
+    position: relative;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ds-auth-form-wrapper {
+    --ds-control-height-1: 48px;
+    --auth-form-min-height: 444px;
+    display: flex;
+    height: 48px;
+    min-height: 444px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.ds-auth-login-icon {
+
+    color: #3964fe;
+    width: 336px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 50px;
+    line-height: 0;
+}
+
+.ds-auth-form-main {
+    display: flex;
+    gap: 32px;
+    align-items: stretch;
+}
+
+.ds-auth-form-main-hero {
+    box-sizing: border-box;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 336px;
+    display: flex;
+}
+
+.ds-input {
+    border: 1px solid #0000001a;
+    background-color: #f9fafb;
+    box-shadow: none;
+    border-radius: 28px;
+    color: #0f1115;
+    height: 48px;
+    align-items: center;
+    display: flex;
+    padding: 0 20px 0 16px;
+    
+}
+
+.ds-input>.ds-input__input {
+    direction: inherit;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 0;
+    font-family: inherit;
+    color: #adb2b8;
+    font-size: 14px;
+    
+}
+
+    
+.ds-input__password-toggle {
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    min-height: 20px;
+    background-color: transparent;
+}
+
+.ds-input>.ds-input__password-toggle {
+    margin: 10px 0 0 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: transparent;
+    height: 48px;
+
+}
+
+.ds-button-icon-main {
+    width: auto;
+    min-width: 0;
+    padding: 0;
+    size: 16px;
+    display: inline-flex;
+    border-radius: 4096px;
+
+}
+
+.ds-button-icon-main>.ds-button__icon {
+    line-height: 0;
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    gap: 3px;
+}
+
+.ds-button__background {
+    height: 28px;
+    box-sizing: content-box;
+    right: auto;
+}
+
+.ds-button.ds-button--icon>.ds-button__background {
+    width: 28px;
+    padding: 0;
+
+}
+
+.ds-button>.ds-button__background {
+    position: absolute;
+    bottom: 0;
+    background-color: #3964fe;
+    box-sizing: border-box;
+}
+
+.ds-form-item-feedback {
+    box-sizing: border-box;
+    min-height: 22px;
+    padding: 2px;
+
+}
+
+.ds-sign-up-form__agreement-text {
+    margin-bottom: 24px;
+}
+
+.ds-form-item {
+    min-height: 22px;
+}
+
+.ds-sign-up-form__agreement-text .ds-form-item__content {
+    color: #81858c;
+    font-size: 12px;
+}
+
+.ds-sign-up-form__agreement-text .ds-form-item__content a {
+    color: #0f1115;
+    text-underline-position: from-font;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+.ds-sign-in-form-footer {
+    justify-content: space-between;
+    margin-bottom: 12px;
+    display: flex;
+    color:#3964fe;
+
+}
+
+
+.ds-login-button {
+     background-color: #5686fe;
+     font-weight: 500;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ds-button__content {
+  font-size: 12px; 
+ 
+}
+
+.ds-login-button>.ds-button__content {
+    font-size: 14px;
+    height: 42px;
+    color: #fff;
+    line-height: 42px;
+    
+}
+.ds-auth-form__footer{
+    display: flex;
+    width: var(--container-width);
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 16px;
+
+}
+
+p {
+    color: #81858c;
+    font-size: 12px;
+    text-decoration-line: underline;
+    text-align: center;
+   
+}
+._5178cc4 {
+    justify-content: center;
+    padding: 32px 18px 20px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+     
+}
+.ds-auth-footer {
+    font-size: 13px;
+    line-height: 23px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    
+   
+}
